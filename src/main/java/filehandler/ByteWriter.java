@@ -13,6 +13,7 @@ public class ByteWriter {
         try {
             myFile = new FileOutputStream("test.txt");
 
+//            need for_loop when writing
             for (int i = 0; i < someNumbers.length; i++){
                 myFile.write(someNumbers[i]);
             }

@@ -17,7 +17,7 @@ public class ByteReader {
 //            opening a byte stream and pointing to a file...double \ cus it's a special char...prints only +ve integers
             myfile = new FileInputStream("C:\\Users\\Mr. Erbynn\\Desktop\\erbynn.gif");
 
-//            read all byte as int
+//            read all byte as int...need while_loop when reading
             while (true){
                 int intValueOfByte = myfile.read();
                 System.out.println(intValueOfByte);
