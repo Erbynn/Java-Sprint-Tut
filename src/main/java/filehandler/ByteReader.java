@@ -1,15 +1,20 @@
 package filehandler;
 
+/*
+ * Reading and writing data one byte at a time
+ * */
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class ByteReader {
     public static void main(String[] args) {
+
 //        declared kinda global to be accessed in try-catch-final block
         FileInputStream myfile = null;
 
         try {
-//            opening a byte stream and pointing to a file...double \ cus it's a special char
+//            opening a byte stream and pointing to a file...double \ cus it's a special char...prints only +ve integers
             myfile = new FileInputStream("C:\\Users\\Mr. Erbynn\\Desktop\\erbynn.gif");
 
 //            read all byte as int
