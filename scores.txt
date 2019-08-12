@@ -1,0 +1,3 @@
+Jacia 34
+John 64
+The is kinda a full statement in the text file consisting of many words that look very familiar and to be read by the program hopefully with no puntuation mark except a full stop like this. :)
