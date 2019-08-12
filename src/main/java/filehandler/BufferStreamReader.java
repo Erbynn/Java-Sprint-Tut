@@ -22,6 +22,7 @@ public class BufferStreamReader {
             myFileBuf = new BufferedInputStream(myFile);
 
             while (true){
+//                reading bytes in +ve int
                 int byteValue = myFileBuf.read();
                 System.out.println(byteValue);
 
