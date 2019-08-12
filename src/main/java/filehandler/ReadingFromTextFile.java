@@ -1,24 +1,32 @@
 package filehandler;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.*;
 
 public class ReadingFromTextFile {
     public static void main(String[] args) {
-        FileInputStream myFile = null;
-        BufferedInputStream buff = null;
+        FileReader myFile = null;
+        BufferedReader buffReader = null;
 
         try {
-            myFile = new FileInputStream("scores.txt");
-            buff = new BufferedInputStream(myFile);
+            myFile = new FileReader("scores.txt");
+            buffReader = new BufferedReader(myFile);
 
             while (true){
-                buff.readLine();
+                String line = buffReader.readLine();
+
+                if (line == null) break;
+
+                System.out.println(line);
             }
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            try {
+                buffReader.close();
+                myFile.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
     }
