@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e8acbeb-bfa7-45f1-99d6-5693a5f09925" name="Default Changelist" comment="" />
+    <list default="true" id="6e8acbeb-bfa7-45f1-99d6-5693a5f09925" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/filehandler/ByteWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filehandler/ByteWriter.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CommandLineArgs">
+  <component name="RunManager" selected="Application.ByteWriter">
     <configuration name="BufferStreamReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="filehandler.BufferStreamReader" />
       <module name="learnJava" />
@@ -106,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteWriter" />
         <item itemvalue="Application.CommandLineArgs" />
         <item itemvalue="Application.BufferStreamWriter" />
         <item itemvalue="Application.BufferStreamReader" />
         <item itemvalue="Application.ByteReader" />
-        <item itemvalue="Application.ByteWriter" />
       </list>
     </recent_temporary>
   </component>

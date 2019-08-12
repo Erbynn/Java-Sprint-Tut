@@ -7,11 +7,11 @@ import java.io.IOException;
 public class ByteWriter {
 
     public static void main(String[] args) {
-        int[] someNumbers = {1,2,3,4,5};
+        int[] someNumbers = {1,2,3,4,5,6,7,8};
         FileOutputStream myFile = null;
 
         try {
-            myFile = new FileOutputStream("test.txt");
+            myFile = new FileOutputStream("test.dat");
 
 //            need for_loop when writing
             for (int i = 0; i < someNumbers.length; i++){
