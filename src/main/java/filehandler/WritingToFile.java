@@ -17,6 +17,7 @@ public class WritingToFile {
             myFile = new FileWriter("Score.txt", true);
             bufWritter = new BufferedWriter(myFile);
 
+//            for each loop
             for (String playerScore : playerScores) {
                 System.out.println("Writing " + playerScore + "...");
                 bufWritter.write(playerScore);
@@ -28,6 +29,7 @@ public class WritingToFile {
         catch (IOException e) {
             e.printStackTrace();
         }
+
 
         finally {
             try {
