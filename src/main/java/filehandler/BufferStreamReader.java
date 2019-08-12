@@ -7,6 +7,9 @@ import java.io.IOException;
 
 /*
 * Reading big chunk of bytes from a file in one shot and quickly with help of buffer stream
+* 1. File to be read as input stream from destination to the program
+* 2. Read all data until returns -ves with while loop
+* 3. Close appropriately
 * */
 
 public class BufferStreamReader {

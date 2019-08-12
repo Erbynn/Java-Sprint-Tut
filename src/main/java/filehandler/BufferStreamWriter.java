@@ -1,5 +1,11 @@
 package filehandler;
-
+/*
+* Buffer reader for quick writing
+* 1. Have data to be written available
+* 2. Create and open a file to be written inside
+* 3. Loop through the data and write them into the open file
+* 4. Flush and close appropriately
+* */
 import java.io.*;
 
 public class BufferStreamWriter {
