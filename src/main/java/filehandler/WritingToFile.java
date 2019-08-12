@@ -8,13 +8,13 @@ public class WritingToFile {
 
     public static void main(String[] args) {
 
-        String[] playerScores = { "John 30pt", "Abena 45pt", "Kweku 55pt", "Row 32pt"};
+        String[] playerScores = { "John 30pt", "Abena 45pt", "Kweku 55pt", "Rowald 32pt", "Todo 4pt"};
 
         FileWriter myFile = null;
         BufferedWriter bufWritter = null;
 
         try{
-            myFile = new FileWriter("Score.txt");
+            myFile = new FileWriter("Score.txt", true);
             bufWritter = new BufferedWriter(myFile);
 
             for (String playerScore : playerScores) {
