@@ -1,8 +1,8 @@
+
 package dateFormat;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.SimpleTimeZone;
+import java.text.SimpleDateFormat;
 
 public class MyDateFormat {
     public static void main(String[] args) {
