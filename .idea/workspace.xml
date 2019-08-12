@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e8acbeb-bfa7-45f1-99d6-5693a5f09925" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/filehandler/WritingToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/filehandler/ReadingFromTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filehandler/ReadingFromTextFile.java" afterDir="false" />
     </list>
@@ -41,20 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadingFromTextFile">
-    <configuration name="BufferStreamReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="filehandler.BufferStreamReader" />
-      <module name="learnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="filehandler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WritingToFile">
     <configuration name="BufferStreamWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="filehandler.BufferStreamWriter" />
       <module name="learnJava" />
@@ -107,13 +95,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WritingToFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="filehandler.WritingToFile" />
+      <module name="learnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="filehandler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WritingToFile" />
         <item itemvalue="Application.ReadingFromTextFile" />
         <item itemvalue="Application.ByteWriter" />
         <item itemvalue="Application.CommandLineArgs" />
         <item itemvalue="Application.BufferStreamWriter" />
-        <item itemvalue="Application.BufferStreamReader" />
       </list>
     </recent_temporary>
   </component>
