@@ -2,6 +2,7 @@ package arrayEncapsulation;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Date;
 
 public class ScoreWriter {
@@ -40,6 +41,31 @@ public class ScoreWriter {
         scores[2].setScore(150);
         scores[2].setPlayDate(today);
 
-      
+        try{
+            myFile = new FileWriter("playerScores.txt");
+            bWriter = new BufferedWriter(myFile);
+
+//            converting each scores to a String and writing to playerScore.txt
+            for (int i = 0; i < scores.length; i++){
+                bWriter.write(scores[i].toString());
+                System.out.println("Writing " + scores[i].getLastName());
+            }
+
+            System.out.println("File writing is complete");
+        }
+
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        finally {
+            try {
+                bWriter.flush();
+                bWriter.close();
+                myFile.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
