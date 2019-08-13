@@ -18,9 +18,10 @@ public class ScoreWriter {
         BufferedWriter bWriter = null;
 
         Date today = new Date();
+//        creating multiple number of instances in array
         Score[] scores = new Score[3];
 
-//        player number 1
+//        player number 1 .... accessing all private variable members
         scores[0] = new Score();
         scores[0].setFirstName("John");
         scores[0].setLastName("Erbynn");
@@ -42,10 +43,12 @@ public class ScoreWriter {
         scores[2].setPlayDate(today);
 
         try{
+//            creating connection to file stream
             myFile = new FileWriter("playerScores.txt");
+//            buffer created to write to files
             bWriter = new BufferedWriter(myFile);
 
-//            converting each scores to a String and writing to playerScore.txt
+//            using for-loop to write to file... converting each scores to a String and writing to playerScore.txt
             for (int i = 0; i < scores.length; i++){
                 bWriter.write(scores[i].toString());
                 System.out.println("Writing " + scores[i].getLastName());
@@ -59,6 +62,7 @@ public class ScoreWriter {
         }
 
         finally {
+            // flush - close - close
             try {
                 bWriter.flush();
                 bWriter.close();
