@@ -26,6 +26,13 @@ public class ScoreWriter {
         scores[0].setScore(200);
         scores[0].setPlayDate(today);
 
+//        player number 2
+        scores[1] = new Score();
+        scores[1].setFirstName("Raphael");
+        scores[1].setLastName("Erbynn");
+        scores[1].setScore(250);
+        scores[1].setPlayDate(today);
 
+        
     }
 }
