@@ -16,8 +16,9 @@ public class Dog {
         size = theSize;
     }
 
-    
+
     void bark() {
+//        private var avail in this class
         if(size > 60) System.out.println("Whoof! whoof!!");
         if(size > 14) System.out.println("Ruff! ruff!!");
         else System.out.println("Yip! yip!!");
