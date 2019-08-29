@@ -13,7 +13,7 @@ public class DogTestDrive {
         Dog dogRefTwo = new Dog();
         dogRefTwo.setSize(8);
 
-        System.out.println("DogTwo with size " + dogRefTwoTwo.getSize() + "barks ");
+        System.out.println("DogTwo with size " + dogRefTwo.getSize() + "barks ");
         dogRefTwo.bark();
     }
 }
