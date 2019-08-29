@@ -4,6 +4,7 @@ public class DogTestDrive {
     public static void main(String[] args) {
 
         Dog dogOne = new Dog();
+
         dogOne.setSize(70);
         int isize = dogOne.getSize();
 
@@ -28,6 +29,7 @@ public class DogTestDrive {
 //        a bit change in how it is set and get
         pets[0].setSize(80);
         int size1 = pets[0].getSize();
+
         pets[1].setSize(50);
         int size2 = pets[1].getSize();
 
