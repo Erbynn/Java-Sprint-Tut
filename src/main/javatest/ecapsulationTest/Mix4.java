@@ -12,7 +12,7 @@ public class Mix4 {
             m4a[x] = new Mix4();
             m4a[x].counter = m4a[x].counter + 1; //counter = 1
             count = count + 1; // count = 1
-//            System.out.println(count);
+            System.out.println(count);
             count = count + m4a[x].maybeNew(x);
             System.out.println(count);
             x=x+1;
