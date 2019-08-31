@@ -10,7 +10,7 @@ public class Mix4 {
         int x = 0;
         while (x<9){
             m4a[x] = new Mix4();
-            System.out.println("yoooo");
+            System.out.println("yoo");
             m4a[x].counter = m4a[x].counter + 1; //counter = 1
             count = count + 1; // count = 1
 //            System.out.println(count);
