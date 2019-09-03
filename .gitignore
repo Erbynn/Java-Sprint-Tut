@@ -23,7 +23,7 @@
 hs_err_pid*
 
 # some files from compiler
-.idea/
+.idea/*
 *.stackdump
 *.xml
 
