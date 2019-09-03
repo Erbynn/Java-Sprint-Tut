@@ -5,7 +5,7 @@ public class SimpleDotComGame {
         int numOfGuesses = 0;
         GameHelper helper = new GameHelper();
 
-        SimpleDotCom theDotCom = new SimpleDotCom();
+        DotComBust theDotCom = new DotComBust();
         int randomNum = (int) (Math.random() * 5); //dictates bug without the parenthesis
 
         int[] locations = {randomNum, randomNum + 1, randomNum + 2};
