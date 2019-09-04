@@ -29,6 +29,7 @@ public class DotComBust {
         System.out.println("Go.com, Come.com and Here.com");
         System.out.println("Try to sink them all in the fewest number of guesses");
         System.out.println("branching ....");
+        System.out.println("brancging test 2");
 
 //        request from the helper a location to set each DotCom
         for (DotCom dotComToSet : dotComsList){
