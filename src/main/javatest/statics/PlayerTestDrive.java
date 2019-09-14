@@ -9,6 +9,8 @@ public class PlayerTestDrive {
 
     private int size;
 
+    static String color = "Blue";
+
     public int getSize() {
         return size;
     }
@@ -28,6 +30,7 @@ public class PlayerTestDrive {
         System.out.println(pt.getSize());
 
 //        System.out.println(size); // Error! ... cannot access non-static variable from a static method
-        
+
+        System.out.println(color); // static method can access static variables
     }
 }
