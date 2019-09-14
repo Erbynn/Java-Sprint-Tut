@@ -12,9 +12,9 @@ public class PlayerTestDrive {
     static String color = "Blue";
 
     //static initializer alternative
-    public static final int PAPA;
+    public static final int PAPA_VALUE;
     static {
-        PAPA = 5;
+        PAPA_VALUE = 5;
     }
 
 
