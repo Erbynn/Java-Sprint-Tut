@@ -11,6 +11,13 @@ public class PlayerTestDrive {
 
     static String color = "Blue";
 
+    //static initializer alternative
+    public static final int PAPA;
+    static {
+        PAPA = 5;
+    }
+
+
     public int getSize() {
         return size;
     }
