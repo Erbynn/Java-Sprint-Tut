@@ -6,12 +6,28 @@
 package statics;
 
 public class PlayerTestDrive {
-    public static void main(String[] args) {
 
+    private int size;
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int s) {
+        size = s;
+    }
+
+    public static void main(String[] args) {
         System.out.println(Player.playerCount);
         Player one = new Player("Papa");
         Player two = new Player("John");
         System.out.println(Player.playerCount);
 
+        PlayerTestDrive pt = new PlayerTestDrive();
+        pt.setSize(20);
+        System.out.println(pt.getSize());
+
+//        System.out.println(size); // Error! ... cannot access non-static variable from a static method
+        
     }
 }
