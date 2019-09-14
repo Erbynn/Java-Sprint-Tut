@@ -14,7 +14,7 @@ public class PlayerTestDrive {
     //static initializer alternative
     public static final int PAPA_VALUE;
     static {
-        PAPA_VALUE = 5;
+        PAPA_VALUE = (int) Math.random();
     }
 
 
