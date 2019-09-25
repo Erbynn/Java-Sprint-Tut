@@ -5,6 +5,8 @@
 
 package statics;
 
+import java.util.ArrayList;
+
 public class PlayerTestDrive {
 
     private int size;
@@ -16,7 +18,6 @@ public class PlayerTestDrive {
     static {
         PAPA_VALUE = (int) Math.random();
     }
-
 
     public int getSize() {
         return size;
@@ -39,5 +40,20 @@ public class PlayerTestDrive {
 //        System.out.println(size); // Error! ... cannot access non-static variable from a static method
 
         System.out.println(color); // static method can access static variables
+
+        ArrayList list = new ArrayList();
+        int x = 5;
+        Integer wInt = new Integer(x);
+        boolean add = list.add(x);
+
+
+
+
     }
+
+    public void nonStatic(){
+        System.out.println(PlayerTestDrive.color);
+    }
+
+
 }
