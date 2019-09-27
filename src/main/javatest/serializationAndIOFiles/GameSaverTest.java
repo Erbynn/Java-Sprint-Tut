@@ -3,6 +3,8 @@ package serializationAndIOFiles;
 /*
  * Serializable example
  * Saving and restoring the game characters
+ *
+ * This is a basic class just for testing Serialization,
  * */
 
 import java.io.*;
@@ -12,9 +14,9 @@ public class GameSaverTest {
     public static void main(String[] args) {
 
 //        making some characters
-        GameCharacter one = new GameCharacter();
-        GameCharacter two = new GameCharacter();
-        GameCharacter three = new GameCharacter();
+        GameCharacter one = new GameCharacter(50, "Fighter", new String[]{"bow", "sword", "dust"});
+        GameCharacter two = new GameCharacter(30, "Troll", new String[]{"bare hand", "big ax"});
+        GameCharacter three = new GameCharacter(90, "Magician", new String[]{"Spells", "invisible"});
 
         // imagine code that does things with the characters that might change their state values
 
@@ -47,8 +49,13 @@ public class GameSaverTest {
 
 //        verify.....check to see if it worked
             System.out.println("One's type: " + oneRestore.getType());
-            System.out.println("One's type: " + twoRestore.getType());
-            System.out.println("One's type: " + threeRestore.getType());
+            System.out.println("One's weapon: " + oneRestore.getWeapons());
+
+            System.out.println("Two's type: " + twoRestore.getType());
+            System.out.println("Two's weapon: " + oneRestore.getWeapons());
+
+            System.out.println("Three's type: " + threeRestore.getType());
+            System.out.println("Three's weapon: " + oneRestore.getWeapons());
 
         } catch (Exception ex){
             ex.printStackTrace();
