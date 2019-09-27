@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e8acbeb-bfa7-45f1-99d6-5693a5f09925" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/javatest/serializationAndIOFiles/GameSaverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/javatest/serializationAndIOFiles/Pond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javatest/MIDIMusicPlayer/MusicTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javatest/MIDIMusicPlayer/MusicTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javatest/statics/PlayerTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javatest/statics/PlayerTestDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/javatest/statics/TestBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javatest/statics/TestBox.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,20 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleGui1B">
-    <configuration name="MusicTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MIDIMusicPlayer.MusicTest1" />
-      <module name="learnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MIDIMusicPlayer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WriteAFile">
     <configuration name="SimpleGui1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui.SimpleGui1" />
       <module name="learnJava" />
@@ -115,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriteAFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="writeToTextFile.WriteAFile" />
+      <module name="learnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="writeToTextFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteAFile" />
         <item itemvalue="Application.SimpleGui1B" />
         <item itemvalue="Application.SimpleGui1" />
         <item itemvalue="Application.TestStactTrace" />
         <item itemvalue="Application.ThrowsExample" />
-        <item itemvalue="Application.MusicTest1" />
       </list>
     </recent_temporary>
   </component>
