@@ -43,7 +43,7 @@ public class GameSaverTest {
 //            cast object to the type you know already because the return type of readObject() meathod is object
             GameCharacter oneRestore = (GameCharacter) is.readObject();
             GameCharacter twoRestore = (GameCharacter) is.readObject();
-            GameCharacter threeRestore = (GameCharacre) is.readObject();
+            GameCharacter threeRestore = (GameCharacter) is.readObject();
 
 //        verify.....check to see if it worked
             System.out.println("One's type: " + oneRestore.getType());
