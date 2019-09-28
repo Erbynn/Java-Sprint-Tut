@@ -16,8 +16,12 @@ public class WriteAFile {
         try{
 //            no connection & chain stream....just straight-forward
             FileWriter writer = new FileWriter("demystify.txt");
-            writer.write("hello Demystify");
+            writer.write("hello Demystify\n");
+            writer.write("hello PK Erbynn\n");
+            writer.write("hello John Erbynn");
             writer.close();
+
+            System.out.println("Done!");
         } catch (IOException ex){
             ex.printStackTrace();
         }
