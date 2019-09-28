@@ -1,9 +1,10 @@
-/*Dabbling with Serialization and files I/O operations*/
+/*Dabbling with Serialization and files I/O operations
+* Only for other java programs to use */
 
 package serializationAndIOFiles;
 import java.io.*;
 
-//making object flatten and saveble...no methods to implement
+//making object flatten and savable...no methods to implement
 public class Box implements Serializable {
 
 //    saves state - the value of these

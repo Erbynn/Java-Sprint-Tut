@@ -1,9 +1,10 @@
-package writeToTextFile;
+package serializationAndIOFiles;
 
 /*
-* Dabblying with Writing string to a Text File
+* Dabbling with Writing string to a Text File for other programs to use
 * Writing text data(usually String) is similar to writing an object(Serializing)
 * except you write a String instead of an object.
+*
 * Usually for some other non-java program to read :)
 * */
 

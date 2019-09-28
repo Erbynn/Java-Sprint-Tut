@@ -2,7 +2,7 @@ package serializationAndIOFiles;
 
 /*
  * Serializable example
- * Saving and restoring the game characters
+ * Saving and restoring objects. In this case, the game characters
  *
  * This is a basic class just for testing Serialization,
  * */
