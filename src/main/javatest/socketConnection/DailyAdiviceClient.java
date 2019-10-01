@@ -1,5 +1,10 @@
 package socketConnection;
-
+/*
+* Writing a Client
+* Reading from a Socket
+* This is a Client program that makes a Socket connection and reads a single line from the server application
+* Simply Connect to server and Read
+* */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -18,7 +23,7 @@ public class DailyAdiviceClient {
             InputStreamReader streamReader = new InputStreamReader(s.getInputStream());
             BufferedReader reader = new BufferedReader(streamReader);
 
-//            read
+//            read from socket
             String advice = reader.readLine();
             System.out.println("Today your should: " + advice);
 
