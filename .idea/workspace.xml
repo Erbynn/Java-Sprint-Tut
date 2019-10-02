@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e8acbeb-bfa7-45f1-99d6-5693a5f09925" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/javatest/socketConnection/DailyAdviceServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/javatest/threadSheduling/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/javatest/threadSheduling/ThreadTestDrive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/javatest/socketConnection/DailyAdiviceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javatest/socketConnection/DailyAdiviceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javatest/socketConnection/DailyAdviceServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/javatest/socketConnection/DailyAdviceServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../github_sprint" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="threadSheduling" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -47,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DailyAdiviceClient">
+  <component name="RunManager" selected="Application.DailyAdviceServer">
     <configuration name="DailyAdiviceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="socketConnection.DailyAdiviceClient" />
       <module name="learnJava" />
@@ -61,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DungeonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serializationAndIOFiles.DungeonTest" />
+    <configuration name="DailyAdviceServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socketConnection.DailyAdviceServer" />
       <module name="learnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serializationAndIOFiles.*" />
+          <option name="PATTERN" value="socketConnection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameSaverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serializationAndIOFiles.GameSaverTest" />
+    <configuration name="DungeonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serializationAndIOFiles.DungeonTest" />
       <module name="learnJava" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DailyAdviceServer" />
         <item itemvalue="Application.DailyAdiviceClient" />
         <item itemvalue="Application.DungeonTest" />
         <item itemvalue="Application.ReadAFile" />
         <item itemvalue="Application.WriteAFile" />
-        <item itemvalue="Application.GameSaverTest" />
       </list>
     </recent_temporary>
   </component>

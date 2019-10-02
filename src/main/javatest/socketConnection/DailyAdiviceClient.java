@@ -1,6 +1,6 @@
 package socketConnection;
 /*
-* Writing a Client
+* Writing a Client that is ...
 * Reading from a Socket
 * This is a Client program that makes a Socket connection and reads a single line from the server application
 * Simply Connect to server and Read
